@@ -53,12 +53,23 @@ function App() {
             </p>
 
             <div className="flex flex-wrap gap-4 pt-4">
-              <div className="px-6 py-3 rounded-lg bg-white text-charcoal-900 font-semibold hover:bg-slate-200 transition-colors cursor-pointer">
-                Read Documentation
-              </div>
-              <div className="px-6 py-3 rounded-lg border border-charcoal-600 hover:border-fresh-400/50 hover:text-white transition-colors cursor-pointer">
+              <a
+                href="https://github.com/automata-network/automata-tpm-attestation/blob/main/docs/User-Guide.md"
+                target="_blank"
+                rel="noreferrer"
+                className="px-6 py-3 rounded-lg bg-white text-charcoal-900 font-semibold hover:bg-slate-200 transition-colors"
+              >
+                User Guide
+              </a>
+              <a
+                href="https://github.com/automata-network/automata-tpm-attestation/tree/main?tab=readme-ov-file#deployment-info"
+                target="_blank"
+                rel="noreferrer"
+                className="px-6 py-3 rounded-lg border border-charcoal-600 hover:border-fresh-400/50 hover:text-white transition-colors flex items-center gap-2"
+              >
                 View Deployed Contracts
-              </div>
+                <ExternalLink size={14} />
+              </a>
             </div>
           </div>
 
