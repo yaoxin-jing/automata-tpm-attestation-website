@@ -1,0 +1,5 @@
+{
+  "name": "Automata TPM Attestation",
+  "description": "A visual documentation and explainer site for the Automata TPM Attestation Solidity library, featuring interactive 3D visualizations and hardware integrity concepts.",
+  "requestFramePermissions": []
+}
